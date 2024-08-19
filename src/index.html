@@ -6,13 +6,105 @@
     <title>BikerZone</title>
     <link rel="stylesheet" href="output.css">
     <link rel="shortcut icon" href="images/others/latest3.png" type="image/x-icon">
+    <!-- necessary font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-poppins">
     <!-- header section -->
-     <header></header>
-    <!-- main section -->
-     <main></main>
-    <!-- footer section -->
-     <footer></footer>
+     <header>
+        <!-- need to add header section -->
+     </header>
+     <div class="max-w-screen-xl mx-auto px-10 lg:px-26">
+        <!-- main section -->
+        <main>
+            <div class="container mx-auto">
+                <!-- featured bikes -->
+                <!-- section header -->
+            <div class="text-center mb-16 lg:mb-24">
+                <h2 class="text-2xl md:text-3xl font-bold mb-2">featured bikes in this year</h2>
+                <p class="text-red-600">best bike collection</p>
+            </div>
+            <!-- bike container -->
+             <div class="md:flex md:items-center md:justify-between gap-4 flex-wrap">
+                <!-- bike-1 -->
+                 <div class="md:w-[48%] lg:w-[31%]">
+                    <img class="filter grayscale-100 mb-16 w-full p-4"
+                    src="images/others/feature-bike.png" alt="">
+                 </div>
+
+                 <!-- bike-2 -->
+                 <div class="md:w-[48%] lg:w-[31%]">
+                    <img class="p-4 mb-16 w-full" src="images/others/feature-bike.png" alt="">
+                 </div>
+
+                 <!-- bike-3 -->
+                 <div class="md:w-[48%] lg:w-[31%] md:mx-auto lg:mx-0">
+                    <img class="filter w-full mb-12 p-4 grayscale-100"
+                    src="images/others/feature-bike.png" alt="">
+                 </div>
+             </div>
+
+             <!-- latest news -->
+              <div class="mb-20">
+                <h3 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+                    latest news
+                </h3>
+                
+                <!-- card-container -->
+                 <div class="md:flex md:justify-between md:flex-wrap gap-4">
+                    <!-- card-1 -->
+                    <div class="border p-6 rounded-xl mb-4 md:w-[48%] lg:w-[31%]">
+                        <img class="rounded-xl w-full mb-8" src="images/others/latest1.png" alt="">
+                        <h3 class="text-2xl font-bold uppercase mb-4">
+                            ducati xdiavel s-73
+                        </h3>
+                        <p class="text-gray-500 text-xl mb-6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.
+                        </p>
+                        <button class="px-6 py-3 border-2 rounded-md border-[#E76F51] capitalize text-[#E76F51] font-bold hover:bg-[#E76F51] hover:text-white">
+                            read more
+                        </button>
+                    </div>
+
+                    <!-- card-2 -->
+                    <div class="border p-6 rounded-xl mb-4 md:w-[48%] lg:w-[31%]">
+                        <img class="rounded-xl w-full mb-8" src="images/others/latest2.png" alt="">
+                        <h3 class="text-2xl lg:text-[1.4rem] font-bold uppercase mb-4">
+                            Motorcycles & Scooters
+                        </h3>
+                        <p class="text-gray-500 text-xl mb-6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.
+                        </p>
+                        <button class="px-6 py-3 border-2 rounded-md border-[#E76F51] capitalize text-[#E76F51] font-bold hover:bg-[#E76F51] hover:text-white">
+                            read more
+                        </button>
+                    </div>
+
+                    <!-- card-3 -->
+                    <div class="border p-6 rounded-xl mb-4 md:w-[48%] lg:w-[31%] md:mx-auto lg:mx-0">
+                        <img class="rounded-xl w-full mb-8" src="images/others/latest3.png" alt="">
+                        <h3 class="text-2xl font-bold uppercase mb-4">
+                            2021 Honda CBR500R
+                        </h3>
+                        <p class="text-gray-500 text-xl mb-6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.
+                        </p>
+                        <button class="px-6 py-3 border-2 rounded-md border-[#E76F51] capitalize text-[#E76F51] font-bold hover:bg-[#E76F51] hover:text-white">
+                            read more
+                        </button>
+                    </div>
+                 </div>
+              </div>
+
+              <!-- happy clients -->
+
+             
+            </div>
+        </main>
+        <!-- footer section -->
+        <footer></footer>
+     </div>
 </body>
 </html>
