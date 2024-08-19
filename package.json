@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+
+  "scripts": {
+    "ins": "npm install",
+    "start": "npx tailwindcss -i ./src/style.css -o ./src/output.css --watch"
+  }
+}
