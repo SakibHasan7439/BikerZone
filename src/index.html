@@ -10,7 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="font-poppins">
     <!-- header section -->
      <header>
@@ -22,12 +25,13 @@
             <div class="container mx-auto">
                 <!-- featured bikes -->
                 <!-- section header -->
-            <div class="text-center mb-16 lg:mb-24">
-                <h2 class="text-2xl md:text-3xl font-bold mb-2">featured bikes in this year</h2>
-                <p class="text-red-600">best bike collection</p>
+            <div class="text-center mb-16 lg:mb-24 mt-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-2">featured bikes in this year</h2>
+                <p class="text-red-600 mb-1 capitalize">best bike collection</p>
+                <hr class="hidden md:block w-16 mx-auto bg-red-500">
             </div>
             <!-- bike container -->
-             <div class="md:flex md:items-center md:justify-between gap-4 flex-wrap">
+             <div class="md:flex md:items-center md:justify-between gap-4 md:mb-20 flex-wrap">
                 <!-- bike-1 -->
                  <div class="md:w-[48%] lg:w-[31%]">
                     <img class="filter grayscale-100 mb-16 w-full p-4"
@@ -48,7 +52,7 @@
 
              <!-- latest news -->
               <div class="mb-20">
-                <h3 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+                <h3 class="text-4xl md:text-5xl font-bold mb-8 capitalize text-center">
                     latest news
                 </h3>
                 
@@ -98,13 +102,216 @@
                  </div>
               </div>
 
-              <!-- happy clients -->
+            <!-- happy clients -->
+            <!-- section header -->
+             <h3 class="text-4xl md:5xl font-bold text-center mb-20">
+                Happy
+                <span class="text-[#E76F51] block pt-4">
+                    Clients say
+                </span>
+             </h3>
 
+             <!-- happy client container -->
+             <div class="flex gap-4 justify-between flex-wrap mb-20">
+                <!-- card-1 -->
+                 <div class="border-2 py-8 px-4 rounded-lg mb-8 md:w-[48%] lg:w-[31%]">
+                    <div>
+                        <img class="w-[70%] mx-auto mb-6" src="images/others/user-1.png" alt="happy client image">
+                    </div>
+                    <p class="text-xl text-gray-400 text-center mb-6">
+                        Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                    </p>
+                    <!-- stars -->
+                     <div class="flex justify-center gap-2 mb-6">
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+                        
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7"  src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7" src="images/icons/star-regular.svg" alt="rating star icon">
+                     </div>
+                     <p class="text-xl font-bold text-blue-600 text-center mb-4">
+                        Regina Miles
+                     </p>
+                     <p class="text-xl font-bold capitalize text-center">
+                        banker
+                     </p>
+                 </div>
+
+                <!-- card-2 -->
+                <div class="border-2 py-8 px-4 rounded-lg mb-8 md:w-[48%] lg:w-[31%]">
+                    <div>
+                        <img class="w-[70%] mx-auto mb-6" src="images/others/user-2.png" alt="happy client image">
+                    </div>
+                    <p class="text-xl text-gray-400 text-center mb-6">
+                        Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                    </p>
+                    <!-- stars -->
+                     <div class="flex justify-center gap-2 mb-6">
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+                        
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7"  src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7" src="images/icons/star-regular.svg" alt="rating star icon">
+                     </div>
+                     <p class="text-xl font-bold text-blue-600 text-center mb-4">
+                        Regina Miles
+                     </p>
+                     <p class="text-xl font-bold capitalize text-center">
+                        banker
+                     </p>
+                 </div>
+
+                <!-- card-3 -->
+                <div class="border-2 py-8 px-4 rounded-lg mb-8 md:w-[48%] lg:w-[31%]">
+                    <div>
+                        <img class="w-[70%] mx-auto mb-6" src="images/others/user-3.png" alt="happy client image">
+                    </div>
+                    <p class="text-xl text-gray-400 text-center mb-6">
+                        Slate helps you see how many more days you need to work to reach your financial goal for the month and year.
+                    </p>
+                    <!-- stars -->
+                     <div class="flex justify-center gap-2 mb-6">
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+                        
+                        <img class="w-7" src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7"  src="images/icons/star-solid.svg" alt="rating star icon">
+
+                        <img class="w-7" src="images/icons/star-regular.svg" alt="rating star icon">
+                     </div>
+                     <p class="text-xl font-bold text-blue-600 text-center mb-4">
+                        Regina Miles
+                     </p>
+                     <p class="text-xl font-bold capitalize text-center">
+                        banker
+                     </p>
+                 </div>
+             </div>
+
+             <!-- question section -->
+             <!-- section-header -->
+              <h3 class="text-4xl md:text-5xl capitalize font-bold  leading-relaxed text-center mb-16">
+                frequently asked <span class="text-[#E76F51]">
+                    questions
+                </span>
+              </h3>
              
+            <!-- section-container -->
+             <div class="md:flex justify-between gap-8 items-center mb-20">
+                <div class="mb-20 md:w-[48%] md:py-8 md:pr-8">
+                    <img src="images/others/question.jpg" alt="question image">
+                </div>
+
+                <!-- question section -->
+                <div class="md:w-[48%]">
+                    <!-- first question box -->
+                   <div class="border-2 rounded-lg mb-6 py-6 px-4 questionContainer">
+                    <div class="flex items-center justify-between pb-4">
+                        <h4 class="font-bold w-[90%]">
+                            What are the most important things I should know about riding a bike?
+                        </h4>
+                        <i id="chevron" class="fa-solid fa-chevron-up font-extrabold answer -rotate-180 transition-all"></i>
+                    </div>
+                    <p id="qAnswer" class="text-gray-500 hidden">
+                        Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                    </p>
+                   </div>
+
+                   <!-- third question box -->
+                   <div class="border-2 rounded-lg mb-6 py-6 px-4 questionContainer">
+                    <div class="flex items-center justify-between pb-4">
+                        <h4 class="font-bold w-[90%]">
+                            How can I tell if my helmet is old and I need a new one?
+                        </h4>
+                        <i id="chevron" class="fa-solid fa-chevron-up font-extrabold answer -rotate-180 transition-all"></i>
+                    </div>
+                    <p id="qAnswer" class="text-gray-500 hidden">
+                        Look inside the helmet for a label or sticker that indicates the manufacture date. Most helmets have a lifespan of about 5 years from the date of manufacture, even if they haven’t been involved in an accident. 
+                    </p>
+                   </div>
+
+                   <!-- forth question box -->
+                   <div class="border-2 rounded-lg mb-6 py-6 px-4 questionContainer">
+                    <div class="flex items-center justify-between pb-4">
+                        <h4 class="font-bold w-[90%]">
+                            My bike has been in storage is it safe to ride?
+                        </h4>
+                        <i id="chevron" class="fa-solid fa-chevron-up font-extrabold answer -rotate-180 transition-all"></i>
+                    </div>
+                    <p id="qAnswer" class="text-gray-500 hidden">
+                        Tires can degrade over time, especially if they’ve been sitting in one position. Look for any signs of cracking or flat spots.Check the tread depth to make sure it’s adequate for safe riding. 
+                    </p>
+                   </div>
+
+                   <!-- fifth question box -->
+                   <div class="border-2 rounded-lg mb-6 py-6 px-4 questionContainer">
+                    <div class="flex items-center justify-between pb-4">
+                        <h4 class="font-bold w-[90%]">
+                            What rules should I follow when riding my bike?
+                        </h4>
+                        <i id="chevron" class="fa-solid fa-chevron-up font-extrabold answer -rotate-180 transition-all"></i>
+                    </div>
+                    <p id="qAnswer" class="text-gray-500 hidden">
+                        Always wear a helmet to protect your head in case of an accident.Wear long sleeves, pants, gloves, and shoes to protect your skin. 
+                    </p>
+                   </div>
+                </div>
+             </div>
+
             </div>
         </main>
-        <!-- footer section -->
-        <footer></footer>
      </div>
+    <!-- footer section -->
+    <footer class="bg-[#0B0D17] text-white py-20">
+        <div class="max-w-screen-xl mx-auto px-10 lg:px-24">
+            <div class="container mx-auto">
+                <!-- footer-content -->
+                <div class="md:flex md:justify-between">
+                    <!-- footer-left -->
+                    <div>
+                        <div class="flex items-center gap-6 mb-6">
+                            <p class="text-2xl capitalize">download now</p>
+                            <p class="text-2xl capitalize">license</p>
+                        </div>
+                        <div>
+                            <ul class="flex flex-wrap gap-4 text-1xl capitalize mb-16">
+                                <li>about</li>
+                                <li>features</li>
+                                <li>pricing</li>
+                                <li>help</li>
+                                <li>careers</li>
+                                <li>privacy policy</li>
+                            </ul>
+                        </div>
+                        <p class="text-gray-300">&copy; 2020 bike. All right reserved</p>
+                    </div>
+
+                    <!-- footer-right -->
+                    <div class="mb-20">
+                        <h3 class="text-2xl md:text-3xl mb-8">Get the App</h3>
+                        <img class="mb-6" src="images/others/ios.png" alt="Apple store">
+                        <img src="images/others/android.png" alt="android store">
+                    </div>
+                    <!-- footer-bar -->
+                     <div class="text-left md:hidden">
+                        <p class="text-gray-300">&copy; 2020 bike. All right reserved</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script tag -->
+    <script src="index.js"></script>
 </body>
 </html>
